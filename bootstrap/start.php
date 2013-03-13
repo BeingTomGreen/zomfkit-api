@@ -25,8 +25,8 @@ $app = new Illuminate\Foundation\Application;
 */
 
 $env = $app->detectEnvironment(array(
-	'local' => array('*.dev'),
-	'live' => array('zomfshark.com'),
+	'dev' => array('*.dev'),
+	'live' => array('*.com', '.co.uk'),
 ));
 
 /*
