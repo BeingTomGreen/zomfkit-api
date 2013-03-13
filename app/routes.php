@@ -18,8 +18,13 @@ Route::get('/', function()
 
 Route::group(array('prefix' => 'api/v1'), function()
 {
-	Route::get('skills', 'ApiSkillController@index');
-	Route::get('skills/{skill}', 'ApiSkillController@show');
+	//Skill Items Json
+	Route::get('json/skills', 'ApiJsonSkillController@index');
+	Route::get('json/skills/{skill}', 'ApiJsonSkillController@show');
+
+	//Skill Items XML
+	Route::get('xml/skills', 'ApiXmlSkillController@index');
+	Route::get('xml/skills/{skill}', 'ApiXmlSkillController@show');
 });
 
 Route::resource('skill', 'SkillController');
