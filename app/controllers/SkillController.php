@@ -2,29 +2,18 @@
 
 class SkillController extends BaseController {
 
-  public function index()
-  {
-    //Grab all of the Skill Items
-    $skill_items = Skill::all();
-
-    //Return the Skill Items as a Json Response
-    return Response::json(array(
-        'items' => $skill_items->toArray()
-      ),
-      201
-    );
-  }
+  private $perPage = 10;
 
   public function show($skill)
   {
     //Grab the Skill Items where Skill = $skill
-    $skill_items = Skill::where('item_skill', $skill)->get();
+    $skill_items = Skill::where('item_skill', $skill)->paginate($this->perPage);
 
-    //Return the Skill Items as a Json Response
-    return Response::json(array(
-        'items' => $skill_items->toArray()
-      ),
-      200
-    );
+    //Return the view
+    return View::make('skills/list', array(
+      'pageTitle' => ucfirst($skill),
+      'section' => $skill,
+      'skill_items' => $skill_items,
+    ));
   }
 }

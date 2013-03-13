@@ -46,12 +46,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "62577e8895c4677b71ba588f9b2501be551c2534"
+                "reference": "8f80dd1aaa91834c02a963d6b352fc50efd31089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/62577e8895c4677b71ba588f9b2501be551c2534",
-                "reference": "62577e8895c4677b71ba588f9b2501be551c2534",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8f80dd1aaa91834c02a963d6b352fc50efd31089",
+                "reference": "8f80dd1aaa91834c02a963d6b352fc50efd31089",
                 "shasum": ""
             },
             "require": {
@@ -102,8 +102,9 @@
                 "illuminate/workbench": "self.version"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "2.1.*",
+                "aws/aws-sdk-php": "2.2.*",
                 "classpreloader/classpreloader": "dev-master",
+                "iron-io/iron_mq": "1.4.2",
                 "mockery/mockery": "0.7.2"
             },
             "type": "library",
@@ -138,7 +139,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-03-12 01:18:05"
+            "time": "2013-03-12 14:31:21"
         },
         {
             "name": "monolog/monolog",
