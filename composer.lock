@@ -46,12 +46,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b7b0db2ab18bff98b574ecde4905c02bfd06edff"
+                "reference": "8f3126acb7a41781f8563e08def06eb4656798a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b7b0db2ab18bff98b574ecde4905c02bfd06edff",
-                "reference": "b7b0db2ab18bff98b574ecde4905c02bfd06edff",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8f3126acb7a41781f8563e08def06eb4656798a7",
+                "reference": "8f3126acb7a41781f8563e08def06eb4656798a7",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-03-13 18:31:05"
+            "time": "2013-03-14 01:22:56"
         },
         {
             "name": "monolog/monolog",
@@ -694,12 +694,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "2a354f11ea59f58024b087c371dd1d4f9246dc86"
+                "reference": "95a7ed9ead6a8af9338df3fd8516adc46e27e941"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/2a354f11ea59f58024b087c371dd1d4f9246dc86",
-                "reference": "2a354f11ea59f58024b087c371dd1d4f9246dc86",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/95a7ed9ead6a8af9338df3fd8516adc46e27e941",
+                "reference": "95a7ed9ead6a8af9338df3fd8516adc46e27e941",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +754,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-11 17:23:12"
+            "time": "2013-03-14 11:41:05"
         },
         {
             "name": "symfony/process",
@@ -810,12 +810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing.git",
-                "reference": "3a97436e581bae44d0eec454a74bbb4f93593e78"
+                "reference": "a8599d5735c5f1f994cfbf91f59851add9c9f627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Routing/zipball/3a97436e581bae44d0eec454a74bbb4f93593e78",
-                "reference": "3a97436e581bae44d0eec454a74bbb4f93593e78",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/a8599d5735c5f1f994cfbf91f59851add9c9f627",
+                "reference": "a8599d5735c5f1f994cfbf91f59851add9c9f627",
                 "shasum": ""
             },
             "require": {
@@ -859,7 +859,7 @@
             ],
             "description": "Symfony Routing Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-06 19:31:19"
+            "time": "2013-03-14 09:39:13"
         },
         {
             "name": "symfony/translation",

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<skill_items>
 	@foreach ($skillItems as $skillItem)
 	<skill_item>
 		<item_id>{{ $skillItem->item_id }}</item_id>
@@ -11,3 +12,4 @@
 		<item_category>{{ $skillItem->item_category }}</item_category>
 	</skill_item>
 	@endforeach
+<skill_items>
