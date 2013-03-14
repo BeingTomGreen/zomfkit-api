@@ -12,4 +12,4 @@
 		<item_category>{{ $skillItem->item_category }}</item_category>
 	</skill_item>
 	@endforeach
-<skill_items>
+</skill_items>

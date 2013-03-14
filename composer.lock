@@ -46,12 +46,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8f3126acb7a41781f8563e08def06eb4656798a7"
+                "reference": "a08a1a975b352f513067c7767d3623ede79d61f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8f3126acb7a41781f8563e08def06eb4656798a7",
-                "reference": "8f3126acb7a41781f8563e08def06eb4656798a7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a08a1a975b352f513067c7767d3623ede79d61f6",
+                "reference": "a08a1a975b352f513067c7767d3623ede79d61f6",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-03-14 01:22:56"
+            "time": "2013-03-14 12:59:37"
         },
         {
             "name": "monolog/monolog",
@@ -597,12 +597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "c4deda0f017520f59f3cb01188a940fc8cc390f4"
+                "reference": "c67f01a50fea3c2897a74ebbb64e3f7d83728d0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/c4deda0f017520f59f3cb01188a940fc8cc390f4",
-                "reference": "c4deda0f017520f59f3cb01188a940fc8cc390f4",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/c67f01a50fea3c2897a74ebbb64e3f7d83728d0f",
+                "reference": "c67f01a50fea3c2897a74ebbb64e3f7d83728d0f",
                 "shasum": ""
             },
             "require": {
@@ -635,7 +635,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-11 17:18:44"
+            "time": "2013-03-12 11:39:20"
         },
         {
             "name": "symfony/http-foundation",
