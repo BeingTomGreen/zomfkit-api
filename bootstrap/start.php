@@ -25,8 +25,10 @@ $app = new Illuminate\Foundation\Application;
 */
 
 $env = $app->detectEnvironment(array(
+
 	'dev' => array('*.dev'),
 	'live' => array('*.com', '.co.uk'),
+
 ));
 
 /*
@@ -53,7 +55,9 @@ $app->bindInstallPaths(require __DIR__.'/paths.php');
 |
 */
 
-require $app->getBootstrapFile();
+$framework = __DIR__.'/../vendor/laravel/framework/src';
+
+require $framework.'/Illuminate/Foundation/start.php';
 
 /*
 |--------------------------------------------------------------------------
