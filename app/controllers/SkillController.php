@@ -1,6 +1,6 @@
 <?php
 
-class ApiJsonSkillController extends BaseController {
+class SkillController extends BaseController {
 
   public function index()
   {
