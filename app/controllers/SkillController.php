@@ -9,7 +9,7 @@ class SkillController extends BaseController {
 
 		//Return the Skill Items as a Json Response
 		return Response::json(array(
-				'items' => $skillItems->toArray()
+				'results' => $skillItems->toArray()
 			),
 			201
 		);
@@ -22,7 +22,7 @@ class SkillController extends BaseController {
 
 		//Return the Skill Items as a Json Response
 		return Response::json(array(
-				'items' => $skillItems->toArray()
+				'results' => $skillItems->toArray()
 			),
 			200
 		);
