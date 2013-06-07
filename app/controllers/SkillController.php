@@ -17,7 +17,7 @@ class SkillController extends BaseController {
 
 	public function show($skill)
 	{
-		//Grab the Skill Items where Skill = $skill
+		//Grab the Skill Items
 		$skillItems = Skill::where('item_skill', $skill)->get();
 
 		//Return the Skill Items as a Json Response
