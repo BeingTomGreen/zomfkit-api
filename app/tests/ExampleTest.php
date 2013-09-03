@@ -14,7 +14,7 @@ class ExampleTest extends TestCase {
 
 		$this->assertTrue($this->client->getResponse()->isOk());
 */
-		$this->assertTrue(true, 1===true);
+		$this->assertTrue(1===true);
 	}
 
 }
