@@ -44,3 +44,7 @@ Retrieves various actions that you can perform to gain experience.
 ##### GET /v1/actions/{skill}
 
 Retrieves various actions that you can perform to gain experience for a specific skill.
+
+### License
+
+This is open-sourced software licensed under the [MIT license](http://beingtomgreen.mit-license.org/).
