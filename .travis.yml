@@ -10,3 +10,11 @@ before_script:
   - php composer.phar install --prefer-source --no-interaction --dev
 
 script: phpunit
+
+notifications:
+  email:
+    recipients:
+      - kingofcuddles@gmail.com
+      - whittle.91@gmail.com
+    on_success: [change]
+    on_failure: [always]
