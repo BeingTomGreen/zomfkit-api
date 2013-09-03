@@ -19,7 +19,7 @@ _**Please note:** you will need Composer to install your dependencies, I suggest
 4. Create `database.php` inside the `app/config/live/` and populate it with your database credentials
 5. Run `php artisan migrate --env=live` to create the database tables
 6. Run `php artisan db:seed -env=live` to populate the database with sample data
-7. Start hitting the API!
+7. Start hitting the API [endpoints](#endpoints)!
 
 You can, of course, set up your own environment(s) or use the dev environment, check out the [Laravel Docs](http://laravel.com/docs/configuration#environment-configuration) for more information on configuring environments.
 
