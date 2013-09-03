@@ -45,6 +45,12 @@ Retrieves various actions that you can perform to gain experience.
 
 Retrieves various actions that you can perform to gain experience for a specific skill.
 
+### TODO
+
+- Add API rates & possibly authentication
+- Start adding other endpoints!
+- Setup GH pages for Docs?
+
 ### License
 
 This is open-sourced software licensed under the [MIT license](http://beingtomgreen.mit-license.org/).
