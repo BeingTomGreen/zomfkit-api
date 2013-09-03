@@ -11,7 +11,7 @@ Currently this isn't even close to complete, and still under **heavy** developme
 
 ### Setup
 
-_**Please note:** you will need Composer to install your dependencies, I suggest you [install it globally](http://getcomposer.org/doc/00-intro.md#globally)_
+_**Please note:** you will need Composer to install your dependencies, I suggest you [install it globally](http://getcomposer.org/doc/00-intro.md#globally)_.
 
 1. Clone this repo `git clone https://github.com/zomfshark/runescape-api.git`
 2. Navigate into the new directory `cd runescape-api` and install dependencies `composer install`
