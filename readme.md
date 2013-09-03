@@ -22,3 +22,25 @@ _**Please note:** you will need Composer to install your dependencies, I suggest
 7. Start hitting the API!
 
 You can, of course, set up your own environment(s) or use the dev environment, check out the [Laravel Docs](http://laravel.com/docs/configuration#environment-configuration) for more information on configuring environments.
+
+### API Documentation
+
+#### Response Format
+
+All responses are in JSON format.
+
+#### Response Codes
+
+- **200:** The request was successful.
+- **404:** The resource was not found.
+- **500:** A server error occurred
+
+#### Endpoints
+
+##### GET /v1/actions
+
+Retrieves various actions that you can perform to gain experience.
+
+##### GET /v1/actions/{skill}
+
+Retrieves various actions that you can perform to gain experience for a specific skill.
