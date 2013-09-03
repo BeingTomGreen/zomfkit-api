@@ -5,7 +5,7 @@ Runescape API
 
 ### What is this?
 
-A basic set of json APIs that you can query to retrieve information relating to the game [Runescape](http://runescape.com).
+A basic JSON API that you can use to retrieve information relating to the game [Runescape](http://runescape.com).
 
 Currently this isn't even close to complete, and still under **heavy** development.
 
