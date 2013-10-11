@@ -50,6 +50,8 @@ Retrieves various actions that you can perform to gain experience for a specific
 - Add API rates & possibly authentication
 - Start adding other endpoints!
 - Setup GH pages for Docs?
+- Add repositories to power the API
+- Ensure correct HTTP error codes are used when no data is found (`/api/v1/actions/kshghadgk` currently return 200 OK)
 
 ### License
 
