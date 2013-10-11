@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSkillItems extends Migration {
+class CreateSkillActions extends Migration {
 
 	/**
 	 * Run the migrations.
