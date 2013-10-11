@@ -2,29 +2,21 @@
 
 class SkillActionController extends BaseController {
 
-	public function index()
-	{
-		//Grab all of the skill actions
-		$skillActions = SkillActions::all();
+  public function index()
+  {
+    //Return the skill actions
+    return Response::json(
+      SkillActions::all()->toArray(),
+      200
+    );
+  }
 
-		//Return the skill actions
-		return Response::json(array(
-				'results' => $skillActions->toArray()
-			),
-			200
-		);
-	}
-
-	public function show($skill)
-	{
-		//Grab the skill actions
-		$skillActions = SkillActions::where('action_skill', $skill)->get();
-
-		//Return the skill actions
-		return Response::json(array(
-				'results' => $skillActions->toArray()
-			),
-			200
-		);
-	}
+  public function show($skill)
+  {
+    //Return the skill actions
+    return Response::json(
+      SkillActions::where('action_skill', $skill)->get()->toArray(),
+      200
+    );
+  }
 }
