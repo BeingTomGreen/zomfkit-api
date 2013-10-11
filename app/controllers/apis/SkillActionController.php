@@ -11,7 +11,7 @@ class SkillActionController extends BaseController {
 		return Response::json(array(
 				'results' => $skillActions->toArray()
 			),
-			201
+			200
 		);
 	}
 
