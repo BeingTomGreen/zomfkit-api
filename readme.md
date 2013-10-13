@@ -53,6 +53,7 @@ Retrieves various actions that you can perform to gain experience for a specific
 - Add repositories to power the API
 - Ensure correct HTTP error codes are used when no data is found (`/api/v1/actions/kshghadgk` currently return 200 OK)
 - Tests :'(
+- Localize
 
 ### License
 
