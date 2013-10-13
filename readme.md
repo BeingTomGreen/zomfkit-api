@@ -33,7 +33,7 @@ All responses are in JSON format.
 
 - **200:** The request was successful.
 - **404:** The resource was not found.
-- **500:** A server error occurred
+- **500:** A server error occurred.
 
 #### Endpoints
 
