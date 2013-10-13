@@ -26,7 +26,7 @@ class SkillActionRepository {
    * Returns all skill actions for a specified skill
    * @return SkillActions/bool
    */  
-  public function getSkillActions()
+  public function getSkillActions($skill)
   {
     // Attemp to grab all actions
     $actions = SkillActions::where('action_skill', $skill)->get();

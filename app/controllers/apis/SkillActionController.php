@@ -22,7 +22,7 @@ class SkillActionController extends BaseController {
   public function index()
   {
     // Attempt to grab all actions
-    $actions = $this->skillActionRepository->getAllActions()->toArray();
+    $actions = $this->skillActionRepository->getAllActions();
     
     // Check we have some actions
     if (!$actions)
@@ -32,7 +32,7 @@ class SkillActionController extends BaseController {
     }
     
     //Return the skill actions & the appropriate HTTP status code
-    return Response::json($this->skillActionRepository->getAllActions()->toArray(), 200);
+    return Response::json($actions->toArray(), 200);
   }
 
   /**
@@ -42,16 +42,16 @@ class SkillActionController extends BaseController {
   public function show($skill)
   {
     // Attempt to grab all actions
-    $actions = $this->skillActionRepository->getSkillActions($skill)->toArray();
+    $actions = $this->skillActionRepository->getSkillActions($skill);
     
     // Check we have some actions
     if (!$actions)
     {
       // No actions found
-      return Response::json(['error' => 'No actions found for "'. $skill .'".'], 404);
+      return Response::json(['error' => 'No actions found for \''. $skill .'\'.'], 404);
     }
     
     //Return the skill actions & the appropriate HTTP status code
-    return Response::json($this->skillActionRepository->getAllActions()->toArray(), 200);
+    return Response::json($actions->toArray(), 200);
   }
 }
