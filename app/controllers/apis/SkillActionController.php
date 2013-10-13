@@ -28,7 +28,11 @@ class SkillActionController extends BaseController {
     if (!$actions)
     {
       // No actions found
-      return Response::json(['errors' => Lang::get('apiErrors.noActions')], 404);
+      return Response::json([
+        'errors' => [
+          Lang::get('apiErrors.noActions')]
+        ]
+      , 404);
     }
     
     //Return the skill actions & the appropriate HTTP status code
@@ -48,7 +52,11 @@ class SkillActionController extends BaseController {
     if (!$actions)
     {
       // No actions found
-      return Response::json(['errors' => Lang::get('apiErrors.noSkillActions', ['skill' => $skill])], 404);
+      return Response::json([
+        'errors' => [
+          Lang::get('apiErrors.noSkillActions', ['skill' => $skill])
+        ]
+      ], 404);
     }
     
     //Return the skill actions & the appropriate HTTP status code
