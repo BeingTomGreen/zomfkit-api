@@ -45,12 +45,25 @@ Retrieves various actions that you can perform to gain experience.
 
 Retrieves various actions that you can perform to gain experience for a specific skill.
 
+#### Errors
+
+Along with an appropriate HTTP error code, any errors will return a JSON object which will contain an `errors` element.
+
+As an example, this is the response you'd see when querying the `actions` API for a skill which doesn't exist.
+
+    {
+      "errors": "No actions found for fishinxg."
+    }
+
+While in this example `errors` is a string, it could also be an array of errors.
+
 ### TODO
 
 - Add API rates & possibly authentication
 - Start adding other endpoints!
 - Setup GH pages for Docs?
 - Tests :'(
+- `api/v1/actions/fishinxg` should return 'skill not found' or something similar? or perhaps better to keep in generic?
 
 ### License
 
