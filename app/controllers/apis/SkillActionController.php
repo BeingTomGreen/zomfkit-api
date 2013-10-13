@@ -2,7 +2,7 @@
 
 class SkillActionController extends BaseController {
 
-  // Hold our skillAction
+  // Hold our skillActionRepository
   protected $skillActionRepository;
 
   /**
@@ -15,6 +15,10 @@ class SkillActionController extends BaseController {
     $this->skillActionRepository = $skillActionRepository;
   }
 
+  /**
+   * Returns all skill actions
+   * @return Response
+   */
   public function index()
   {
     // Attempt to grab all actions
@@ -31,6 +35,10 @@ class SkillActionController extends BaseController {
     return Response::json($this->skillActionRepository->getAllActions()->toArray(), 200);
   }
 
+  /**
+   * Returns all skill actions for a specified skill
+   * @return Response
+   */
   public function show($skill)
   {
     // Attempt to grab all actions

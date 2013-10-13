@@ -2,6 +2,10 @@
 
 class SkillActionRepository {
 
+  /**
+   * Returns all skill actions
+   * @return SkillActions/bool
+   */  
   public function getAllActions()
   {
     // Attemp to grab all actions
@@ -17,7 +21,11 @@ class SkillActionRepository {
     // Return our actions object
     return $actions;
   }
-  
+
+  /**
+   * Returns all skill actions for a specified skill
+   * @return SkillActions/bool
+   */  
   public function getSkillActions()
   {
     // Attemp to grab all actions
